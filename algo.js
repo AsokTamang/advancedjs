@@ -54,3 +54,10 @@ const dreamHoliday = {
 const {destination,activity,accommodation,companion} = dreamHoliday
 console.log(`I would love to go to ${destination}, for ${activity}.I will live at ${accommodation} with ${companion}`)
 
+console.log('What is the capital of Peru?')
+
+setTimeout(function(){
+    console.log('Lima!')
+}, 3000)
+
+console.log('Ready for next question?')
