@@ -92,3 +92,8 @@ function startCountdown() {
 
 }
 startCountdown()
+
+
+characters.forEach(function(character){
+    console.log(character.powers)
+    character.powers.forEach((power)=>console.log(power))})
