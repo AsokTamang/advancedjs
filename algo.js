@@ -43,3 +43,14 @@ Challenge:
 }
 
 console.log(selectItem("biscuits"));
+
+const dreamHoliday = {
+    destination: 'Japan',
+    activity: 'Basketball and hiking',
+    accommodation: 'Village House',
+    companion: 'My friend'
+}
+
+const {destination,activity,accommodation,companion} = dreamHoliday
+console.log(`I would love to go to ${destination}, for ${activity}.I will live at ${accommodation} with ${companion}`)
+
