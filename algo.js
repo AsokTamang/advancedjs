@@ -61,3 +61,14 @@ setTimeout(function(){
 }, 3000)
 
 console.log('Ready for next question?')
+
+
+//settimeout
+function logAnswer(name,points) {
+    console.log(`The answer is ${name} of course! If you got that right, giver yourself ${points} points .`)
+}
+
+console.log('What is the capital of Peru?')
+setTimeout(logAnswer,3000,Lima,3)  //here Lima and 3 are the arguments that are being passed to the function logAnswer
+
+
