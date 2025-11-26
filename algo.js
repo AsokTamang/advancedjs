@@ -72,3 +72,23 @@ console.log('What is the capital of Peru?')
 setTimeout(logAnswer,3000,Lima,3)  //here Lima and 3 are the arguments that are being passed to the function logAnswer
 
 
+function startCountdown() {
+    let secondsRemaining = 3
+
+
+
+    const shutdownTimer = setInterval(function() {
+        if (secondsRemaining > 0) {
+            console.log(`Your device will shut down in ${secondsRemaining} seconds.`)
+            secondsRemaining -= 1
+        }
+        else {
+            console.log('Your device is shutting down.')
+            clearInterval(shutdownTimer)   //clearinterval is used to remove the setinterval function
+
+        }
+
+    }, 1000)
+
+}
+startCountdown()
